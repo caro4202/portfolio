@@ -1,0 +1,258 @@
+/* Generelle indstillinger*/
+
+.all {
+    font-style: italic;
+}
+
+
+/* Navigation burger */
+
+/*.menubutton {
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.bar {
+    width: 1.8em;
+    height: 0.5em;
+    background-color: black;
+}
+
+.kryds .bar1 {
+
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.kryds .bar2 {
+    visibility: hidden;
+
+}
+
+.kryds .bar3 {
+    transform: rotate(-45deg) translate(8px, -7px);
+
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: aliceblue;
+    transform: scaleY(1);
+    transform-origin: top;
+
+    transition: transform .5s;
+    z-index: 5;
+}
+
+.hidden {
+    transform: translateY(-200px);
+}
+/* Navigation slut */
+
+/* Style the navbar */
+
+#navbar {
+    overflow: hidden;
+    background-color: #807e7e;
+}
+
+/* Navbar links */
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* Page content */
+
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.logo {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#CV .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#CV .CV_ME {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 0em;
+    padding: 2em;
+}
+
+#CV .CV_work {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 0em;
+    padding: 2em;
+}
+
+.CV_ME img {
+    width: 70%;
+}
+
+.CV_ME p {
+    font-family: ;
+    font-size: 18px;
+
+}
+
+.overskift {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.footer img {
+    width: 40px;
+    opacity: 0.6;
+}
+
+.footer {
+    text-align: center;
+}
+
+/*Portfolio*/
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .responsive_site {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    align-items: center;
+}
+
+#portfolio .everyday {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    align-items: center;
+}
+
+#portfolio .redesign {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    align-items: center;
+}
+
+#portfolio .animation {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    align-items: center;
+}
+
+#portfolio .privatsnak {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    align-items: center;
+}
+
+#portfolio .kea-app {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    align-items: center;
+}
+
+#portfolio .joeandthejuice {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    align-items: center;
+}
+
+.youtube1 {
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.links a {
+    color: black;
+}
+
+.moodboard {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.links1 a {
+    color: black;
+}
+
+.links2 a {
+    color: black;
+}
+
+.animationbillede {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.animationbillede1 {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.links4 a {
+    color: black;
+}
